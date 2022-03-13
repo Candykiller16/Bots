@@ -8,7 +8,7 @@ import config
 
 bot = telebot.TeleBot(config.token_for_first_bot)
 
-BASEURL = 'https://api.telegram.org/bot5204409820:AAEQwMjwTuva7RjMGK8tFklSLbZLE25inek/'
+BASEURL = config.BaseUrl
 
 
 def get_total_confirmed_from_belarus():
